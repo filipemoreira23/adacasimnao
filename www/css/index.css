@@ -1,0 +1,74 @@
+*{
+    font-family: sans-serif;
+}
+
+.btn{
+    position: absolute;
+    display: block;
+    height: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.btn-yes{
+    background-image: -webkit-linear-gradient(top, #3a963a 0%, #207420 100%);
+    background-image:         linear-gradient(to bottom, #3a963a 0%, #207420 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5cb85c', endColorstr='#ff419641', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #3e8f3e;
+    top: 0;
+    left: 0;
+}
+
+.btn-yes:hover{
+    background-image: -webkit-linear-gradient(top, #5cb85c 0%, #419641 100%);
+    background-image:         linear-gradient(to bottom, #5cb85c 0%, #419641 100%);
+}
+
+.btn-no{
+    background-image: -webkit-linear-gradient(top, #b7312d 0%, #a00c08 100%);
+    background-image:         linear-gradient(to bottom, #b7312d 0%, #a00c08 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+    background-repeat: repeat-x;
+    border-color: #b92c28;
+    top: 50%;
+    left: 0;
+}
+
+.btn-no:hover{
+    background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
+    background-image:         linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);
+}
+
+.label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    tranform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 800%;
+    text-shadow: 0 4px rgba(0,0,0,0.5);
+}
+
+.fader{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+}
+
+.context-menu{
+    position: absolute;
+    z-index: 3;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    tranform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
